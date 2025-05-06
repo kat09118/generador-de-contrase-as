@@ -12,5 +12,5 @@ cc=int(input("cuantos caracteres desearias q tenga tu contraseña"))
 for i in range(cc):
     character = r.choice(caracteres)
     contraseña = contraseña+character
-print(contraseña)
+print(contraseña) 
 
